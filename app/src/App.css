@@ -82,3 +82,24 @@ button {
 .card.vizitat button {
   background: #10b981;
 }
+/* Laboratorul 4 */
+.formular { align-items: flex-start; }
+.camp { flex: 1; min-width: 0; }
+.camp label { display: block; margin-bottom: .3rem; font-size: .9rem; }
+.camp input { width: 100%; box-sizing: border-box; }
+.formular > button { margin-top: 1.6rem; }
+.cautare { margin-bottom: 1.2rem; }
+.cautare input { width: 100%; box-sizing: border-box; padding: .5rem .7rem; border: 1px solid #c3c7cf; border-radius: 7px; font: inherit; }
+.stare { padding: .8rem; border-radius: 9px; background: #eff6ff; color: #1e40af; }
+.stare.eroare { background: #fef2f2; color: #b91c1c; }
+.formular input.invalid { border-color: #dc2626; background: #fff1f2; }
+.eroare-camp { margin: .3rem 0 0; font-size: .8rem; color: #b91c1c; }
+button:disabled, .card.vizitat button:disabled { background: #9ca3af; cursor: default; }
+.gol { padding: 1.5rem; border: 1px dashed #9ca3af; border-radius: 9px; text-align: center; color: #6b7280; }
+.paginare { display: flex; justify-content: center; align-items: center; gap: 1rem; margin: 1.5rem 0; }
+.panou { margin-bottom: 1.4rem; padding: .9rem 1rem; border: 1px solid #d8dbe0; border-radius: 10px; }
+.panou h2 { margin: 0 0 .6rem; font-size: 1.1rem; }
+.panou label { font-size: .9rem; color: #4b5563; }
+.panou input { width: 70px; padding: .3rem .5rem; border: 1px solid #c3c7cf; border-radius: 6px; font: inherit; }
+.panou ul { margin: .7rem 0 0; padding-left: 1.1rem; color: #4b5563; font-size: .95rem; }
+@media (max-width: 540px) { .formular { flex-direction: column; } .camp { width: 100%; } .formular > button { margin-top: .3rem; } }
